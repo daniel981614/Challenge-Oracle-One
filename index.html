@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <!-- Básico para la pagina
+    ================================================== -->
+    <meta charset="UTF-8" />
+    <!-- Título de su sitio web -->
+    <title>Alura Challenge 1 - Criptografía</title>
+    <!-- Para dispositivos móviles
+    ================================================== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Logo
+    ================================================== -->  
+    <link rel="shortcut icon" href="img/logoTitulo.svg" type="image/x-icon" />
+    <!-- CSS
+    ================================================== -->
+    <!-- Estilos Personalizados -->  
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="input-container">
+         <!-- #region Encabezado -->
+        <header>
+          <!-- Logo -->
+          <img src="img/logo.png" alt="Alura Logo" />
+        </header>
+        <!-- endregion -->
+
+        <!-- #region main -->
+        <main>
+          <!-- Campo Texto -->
+          <textarea placeholder="Digite su texto aquí" name="input"></textarea>          
+          <!-- Información -->
+          <small><img src="img/info.png" />&nbsp;Solo letras minúsculas y sin acento.</small>
+          <div class="button-container">
+            <!-- Botón para encriptar -->
+            <button id="encrypt" class="encrypt">Encriptar</button>
+            <!-- Botón para desencriptar -->
+            <button id="decrypt" class="decrypt">Desencriptar</button>
+          </div>
+        </main>
+        <!-- endregion -->
+
+      </div>
+      <div class="output-container">
+        <img src="img/buscarMensaje.svg" alt="Searching for a text" />
+        <textarea class="hidden" placeholder="" name="input" readonly="readonly"></textarea>
+        <h2>Ningún mensaje encontrado</h2>
+        <button id="copy" class="hidden">Copiar</button>
+        <p>Ingrese el texto que desea encriptar o desencriptar.</p>
+      </div>
+    </div>
+    
+    <!-- #region Pie de pagina -->
+    <footer>
+      <small>
+        <p id="fechaActual"></p> &copy; Copyright by Alura Latam. developed by
+        <a target="_blank" href="https://github.com/daniel981614">Carlos Daniel Herrera Puma.</a>
+      </small>
+    </footer>
+    <!-- endregion -->
+
+    <!-- scripts -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
