@@ -39,6 +39,6 @@ El resultado debe ser mostrado en la pantalla.El resultado debe ser mostrado en 
 
 ### :black_nib: Autor
 
-- **[Yinner Stiven Chilito](https://www.linkedin.com/in/yinner-stiven-chilito-medina-b18a551b3/)**
+- **[Carlos Daniel Herrera Puma](https://www.linkedin.com/in/carlos-daniel-herrera-puma/)**
 
 
