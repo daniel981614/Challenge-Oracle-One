@@ -29,12 +29,14 @@ Por ejemplo:
 > La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
 El resultado debe ser mostrado en la pantalla.El resultado debe ser mostrado en la pantalla.
 
+### Extras:
+- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+
 ### :wrench: Herramientas y Tecnologías Utilizadas en el Proyecto
 
 - [HTML5](https://developer.mozilla.org/es/docs/Glossary/HTML5)
 - [CSS3](https://developer.mozilla.org/es/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
-- [Visual Studio Code](https://code.visualstudio.com/)
 ------------
 
 ### :black_nib: Autor
